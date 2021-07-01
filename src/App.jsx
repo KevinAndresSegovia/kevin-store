@@ -1,8 +1,8 @@
 import React from "react";
 import { NavBar } from "./components/navbar/NavBar";
 import { Container, Row } from "react-bootstrap";
-import ItemListContainer from "./containers/ItemListContainer";
-//import ItemDetailContainer from "./containers/ItemDetailContainer";
+//import ItemListContainer from "./containers/ItemListContainer";
+import ItemDetailContainer from "./containers/ItemDetailContainer";
 
 export function App() {
   return (
@@ -10,8 +10,8 @@ export function App() {
       <NavBar />
       <Container>
         <Row>
-          <ItemListContainer />
-          {/* <ItemDetailContainer /> */}
+          {/* <ItemListContainer /> */}
+          <ItemDetailContainer />
         </Row>
       </Container>
     </div>

@@ -8,6 +8,7 @@ export default function CardComponent({ name, img, descripcion, price, stock }) 
       <Card.Header className="text-center">{name}</Card.Header>
       <Card.Img variant="top"src={img}/>
         <Card.Body>
+          <button>Info</button>
           <Card.Text>{descripcion}</Card.Text>
           <Card.Text>Precio: ${price}</Card.Text>
           <Card.Text>Stock: {stock}</Card.Text>

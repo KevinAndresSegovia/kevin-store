@@ -17,9 +17,9 @@ export const Counter = ({ stock }) => {
 
   return (
     <div>
-      <button onClick={restar}>➖</button>
+      <button onClick={restar}>-</button>
       <p>{counter}</p>
-      <button onClick={sumar}>➕</button>
+      <button onClick={sumar}>+</button>
     </div>
   );
 };

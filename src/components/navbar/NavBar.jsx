@@ -22,17 +22,26 @@ export function NavBar() {
       expand="sm"
       collapseOnSelect
     >
-      <Navbar.Brand href="index.html">
-        <img className="App-logo" src={"/img/logo.svg"} alt="Logo" /> ReactLibre
+      <Navbar.Brand href="/">
+        <img className="App-logo" src={"/img/logo.svg"} alt="Logo" />{" "}
+        ReactLibre
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <nav>
           <NavDropdown title="Categorias">
-            <Nav.Link href="smartphones">Smartphones</Nav.Link>
-            <Nav.Link href="notebooks">Notebooks</Nav.Link>
-            <Nav.Link href="tablets">Tablets</Nav.Link>
-            <Nav.Link href="accesorios">Accesorios</Nav.Link>
+            <Nav.Link href="/ItemListContainer/smartphones">
+              Smartphones
+            </Nav.Link>
+            <Nav.Link href="/ItemListContainer/notebooks">
+              Notebooks
+            </Nav.Link>
+            <Nav.Link href="/ItemListContainer/tablets">
+              Tablets
+            </Nav.Link>
+            <Nav.Link href="/ItemListContainer/Accesorios+para+Celulares">
+              Accesorios
+            </Nav.Link>
           </NavDropdown>
         </nav>
         <Form inline>

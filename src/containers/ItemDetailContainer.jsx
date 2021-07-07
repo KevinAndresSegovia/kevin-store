@@ -15,6 +15,7 @@ export default function ItemDetailContainer() {
       waitForData();
     }, []);
   
+    console.log("Todo Ok")
     return (
       <Fragment>
               <ShowItem

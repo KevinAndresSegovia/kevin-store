@@ -13,6 +13,7 @@ export default function ItemListContainer() {
       let data = await getData(id);
       let aux = data.map((element) => {
         return {
+          id: element.id,
           name: element.title,
           img: element.thumbnail,
           price: element.price,
@@ -31,6 +32,7 @@ export default function ItemListContainer() {
         return (
           <Fragment key={index}>
             <CardComponent
+              id={element.id}
               name={element.name}
               img={element.img}
               price={element.price}
